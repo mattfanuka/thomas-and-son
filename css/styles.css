@@ -1042,18 +1042,6 @@ body {
         padding: 1rem 0;
     }
 
-    .circle {
-
-    }
-
-    .title-holder {
-
-    }
-
-    .title-buttons {
-
-    }
-
     .page-title-holder {
         flex-direction: column-reverse;
     }
@@ -1213,11 +1201,6 @@ body {
         font-size: 32px;
     }
 
-    .reviews-container {
-        justify-content: center;
-        width: 100%;
-    }
-
     .carousel-header h2 {
         line-height: 1.2;
         margin-top: 0.75rem;
@@ -1233,8 +1216,17 @@ body {
         height: 35px;
     }
 
+    .service-carousel-holder {
+        padding: 0 1rem;
+    }
+
+    .reviews-container {
+        justify-content: center;
+        width: 100%;
+    }
+
     .review-card {
-        width: 250px;
+        width: 300px;
         padding: 2rem 0.5rem;
         min-width: unset;
         height: 175px;
@@ -1265,6 +1257,10 @@ body {
 
     .review-card p {
         margin: 0;
+    }
+
+    .cta-container-inner {
+        padding: 0 1rem;
     }
 
     .footer-link {
