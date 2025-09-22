@@ -1093,7 +1093,7 @@ a.cta {
 
 .contact-form-container {
     background-color: #195c18;
-    background-image: url('/img/contact-form-bg.svg');
+    background-image: url('../img/contact-form-bg.svg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 1000px;
@@ -1702,4 +1702,5 @@ a.cta {
     .footer-link {
         width: 35%;
     }
+
 }
