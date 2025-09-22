@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Thomas and Son LLC Landscaping | Gallery</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="header-left">
+                <div class="logo img-wrapper">
+                    <a href="/index.html"><img src="/img/logo.png"></a>
+                </div>
+                <div class="comp-name img-wrapper">
+                    <a href='/index.html'><img src="/img/company-name.svg"></a>
+                </div>
+            </div>
+            <div class="header-center">
+                <div class="contact-box">
+                    <span class="contact-icon img-wrapper">
+                        <img src="/img/phone-icon.svg">
+                    </span>
+                    <div class="contact-info">
+                        <p class="contact-label">Phone Number:</p>
+                        <p class="contact-value"><a href="tel:609-415-3735">(609) 415-3735</a></p>
+                    </div>
+                </div>
+                <div class="contact-box">
+                    <span class="contact-icon img-wrapper">
+                        <img src="/img/email-icon.svg">
+                    </span>
+                    <div class="contact-info">
+                        <p class="contact-label">Email:</p>
+                         <p class="contact-value"><a href="mailto:nick@thomasandsonlandscaping.com">nick@thomasandsonlandscaping.com</a></p>
+                    </div>
+                </div>
+            </div>
+            <nav>
+                <div class="header-right">
+                    <a href="/index.html" class="link large">HOME</a>
+                    <a href="/pages/services.html" class="link large">SERVICES</a>
+                    <a href="/pages/about.html" class="link  large">ABOUT</a>
+                    <a class="link selected large">GALLERY</a>
+                    <a href="/pages/contact.html" class="contact large cta">CONTACT</a>
+
+                    <div class="hamburger" onclick="toggleMobileMenu()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+            
+                    <div class="mobile-nav" id="mobileNav">
+                        <div class="nav-links">
+                            <a href="/index.html" class="link" href="#home">HOME</a>
+                            <a href="/pages/services.html" class="link" href="#services">SERVICES</a>
+                            <a href="/pages/about.html" class="link " href="#about">ABOUT</a>
+                            <a class="link selected" href="#gallery">GALLERY</a>
+                            <a href="/pages/contact.html" class="contact cta" href="#contact">CONTACT</a>
+                        </div>
+                        <div class="grey">
+
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="gallery-page">
+        <h1>OUR WORK</h1>
+        <div class="collage">
+            <img id="0" src="https://picsum.photos/1342/1578" data-title="TITLE" alt="gfdsg"/>
+            <img id="1" src="https://picsum.photos/1498/1453" data-title="TITLE1" alt="fdsafdsaf"/>
+            <img id="2" src="https://picsum.photos/1217/1523" data-title="TITLE3" alt="fdsafdsaf"/>
+            <img id="3" src="https://picsum.photos/1583/1402" data-title="TITLE4" alt="hfdgfasdfsd"/>
+            <img id="4" src="https://picsum.photos/1456/1534" data-title="TITLE5" alt=""/>
+            <img id="5" src="https://picsum.photos/1265/1352" data-title="TITLE" alt=""/>
+            <img id="6" src="https://picsum.photos/1320/1486" data-title="TITLE" alt=""/>
+            <img id="7" src="https://picsum.photos/1531/1214" data-title="TITLE" alt=""/>
+            <img id="8" src="https://picsum.photos/1470/1569" data-title="TITLE" alt=""/>
+            <img id="9" src="https://picsum.photos/1594/1375" data-title="TITLE" alt=""/>
+            <img id="10" src="https://picsum.photos/1248/1429" data-title="TITLE" alt=""/>
+            <img id="11" src="https://picsum.photos/1503/1497" data-title="TITLE" alt=""/>
+            <img id="12" src="https://picsum.photos/1367/1550" data-title="TITLE" alt=""/>
+            <img id="13" src="https://picsum.photos/1422/1276" data-title="TITLE" alt=""/>
+            <img id="14" src="https://picsum.photos/1510/1432" data-title="TITLE" alt=""/>
+            <img id="15" src="https://picsum.photos/1515/1431" data-title="TITLE" alt=""/>
+            <img id="16" src="https://picsum.photos/1545/1421" data-title="TITLE" alt=""/>
+            <img id="17" src="https://picsum.photos/1215/1425" data-title="TITLE" alt=""/>
+        </div>
+
+        <div class="modal" id="imageModal">
+            <div class="modal-content">
+                <button onclick="closeModal()" class="close-btn">&times;</button>
+                <button class="modal-nav-btn modal-prev-btn" data-shift="-1">&#8249;</button>
+                <button class="modal-nav-btn modal-next-btn" data-shift="1">&#8250;</button>
+                <div class="modal-counter">
+                    <span id="currentIndex">1</span> / <span id="totalImages">6</span>
+                </div>
+                <img id="modalImage" src="" alt="">
+                <div class="modal-info">
+                    <div class="modal-title" id="modalTitle">Image Title</div>
+                    <div class="modal-description" id="modalDescription">Image description and details go here.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-holder">
+            <div class="footer-top-grid">
+                <div class="img-wrapper footer-logo">
+                    <img src="/img/logo-dark.svg">
+                </div>
+                <div class="footer-info">
+                    <span class="footer-info-line">
+                        <div class="img-wrapper info-pic">
+                            <img src="/img/map-icon.svg">
+                        </div>
+                        <p>Serving South Jersey and Philadelphia Areas</p>
+                    </span>
+                    <span class="footer-info-line">
+                        <div class="img-wrapper info-pic">
+                            <img src="/img/phone-footer-icon.svg">
+                        </div>
+                        <p><a href="tel:609-415-3735">(609) 415-3735</a></p>
+                    </span>
+                    <span class="footer-info-line">
+                        <div class="img-wrapper info-pic">
+                            <img src="/img/email-footer-icon.svg">
+                        </div>
+                        <p><a href="mailto:nick@thomasandsonlandscaping.com">nick@thomasandsonlandscaping.com</a></p>
+                    </span>
+                </div>
+                <div class="footer-services">
+                    <h4>SERVICES</h4>
+                    <ul class="footer-services-list">
+                        <li><a>Lawn Mowing</a></li>
+                        <li><a>Mulch Installation</a></li>
+                        <li><a>Bush & Tree Planting</a></li>
+                        <li><a>General Landscaping</a></li>
+                        <li><a>Gutter Cleaning</a></li>
+                        <li><a>Leaf Disposal</a></li>
+                        <li><a>Ice Prevention & Removal</a></li>
+                        <li><a>Pressure & Soft Washing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-browse">
+                    <h4>BROWSE</h4>
+                    <ul class="footer-browse-list">
+                        <li><a>About</a></li>
+                        <li><a>Gallery</a></li>
+                        <li><a href="/pages/contact.html" class="footer-book">BOOK FREE ESTIMATE</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-divider">
+                <div class="footer-site-info">
+                    <p>&#169; Thomas & Son Landscaping, LLC <span class='copyright-year'>2025</span> | Website by <a href="https://cherryhillwebdev.com/index.html">Cherry Hill Web Dev</a></p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <script src="/js/gallery.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>
