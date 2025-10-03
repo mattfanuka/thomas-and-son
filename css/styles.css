@@ -1817,7 +1817,7 @@ a.cta {
 
     .dropdown-menu {
         position: absolute;
-        top: -40%;
+        top: -150%;
         left: -120px;
         min-width: 160px;
         background: #444;
