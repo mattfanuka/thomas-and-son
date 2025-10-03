@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta name="description" content="Thomas & Son Landscaping LLC provides expert lawn care and property services in Vineland, South Jersey, and Philadelphia. From mowing and pruning to snow removal, power washing, and more, we keep your property looking its best year-round.">
+    <meta name="keywords" content="lawn care Vineland, landscaping South Jersey, lawn mowing Philadelphia, property maintenance, outdoor services">
+    <link rel="canonical" href="https://www.thomasandsonlandscaping.com/">
+    <link rel="icon" type="image/x-icon" href="/img/logo.png">
+    <meta property="og:title" content="Thomas & Son Landscaping LLC | Lawn Care & Outdoor Services">
+    <meta property="og:description" content="Serving Vineland, South Jersey, and Philadelphia with expert lawn care, landscaping, and seasonal property maintenance.">
+    <meta property="og:url" content="https://www.thomasandsonlandscaping.com/">
+    <meta property="og:type" content="website">
+    <title>Thomas and Son LLC Landscaping | South Jersey's No. 1 Landscaper</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="header-left">
+                <div class="logo img-wrapper">
+                    <a href='./index.html'><img src="./img/logo.png" alt="thomas-and-son-logo"></a>
+                </div>
+                <div class="comp-name img-wrapper">
+                    <a href='./index.html'><img src="./img/company-name.svg" alt="company-name"></a>
+                </div>
+            </div>
+            <div class="header-center">
+                <div class="contact-box">
+                    <span class="contact-icon img-wrapper">
+                        <img src="./img/phone-icon.svg" alt="phone-icon">
+                    </span>
+                    <div class="contact-info">
+                        <p class="contact-label">Phone Number:</p>
+                        <p class="contact-value"><a href="tel:609-415-3735">(609) 415-3735</a></p>
+                    </div>
+                </div>
+                <div class="contact-box">
+                    <span class="contact-icon img-wrapper">
+                        <img src="./img/email-icon.svg" alt="email-icon">
+                    </span>
+                    <div class="contact-info">
+                        <p class="contact-label">Email:</p>
+                        <p class="contact-value"><a href="mailto:nick@thomasandsonlandscaping.com">nick@thomasandsonlandscaping.com</a></p>
+                    </div>
+                </div>
+            </div>
+            <nav>
+                <div class="header-right">
+                    <a class="link selected large">HOME</a>
+                    <div class="dropdown">
+                        <a href="./pages/services.html" class="link large">SERVICES</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="./pages/services/lawn-mowing.html">Lawn Mowing</a></li>
+                            <li><a href="./pages/services/aeration-dethatching.html">Aeration & Dethatching</a></li>
+                            <li><a href="./pages/services/mulch.html">Mulch Installation</a></li>
+                            <li><a href="./pages/services/pruning.html">Bush & Tree Pruning</a></li>
+                            <li><a href="./pages/services/leaf-removal.html">Leaf Removal & Disposal</a></li>
+                            <li><a href="./pages/services/gutter-cleaning.html">Gutter Cleaning</a></li>
+                            <li><a href="./pages/services/snow-removal.html">Snow Removal</a></li>
+                            <li><a href="./pages/services/ice-prevention.html">Ice Prevention</a></li>
+                            <li><a href="./pages/services/soft-washing.html">Soft Washing</a></li>
+                            <li><a href="./pages/services/power-washing.html">Power Washing</a></li>
+                            <li><a href="./pages/services/junk-removal.html">Junk Removal</a></li>
+                        </ul>
+                    </div>
+                    <a href="./pages/about.html" class="link large">ABOUT</a>
+                    <a href="./pages/gallery.html" class="link large">GALLERY</a>
+                    <a href="./pages/contact.html" class="contact large cta">CONTACT</a>
+
+                    <div class="hamburger" onclick="toggleMobileMenu()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+            
+                    <div class="mobile-nav" id="mobileNav">
+                        <div class="nav-links">
+                            <a class="link selected" href="#home">HOME</a>
+                            <div class="dropdown">
+                                <a class="mobile-services">SERVICES</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="./pages/services.html">All Services</a></li>
+                                    <li><a href="./pages/services/lawn-mowing.html">Lawn Mowing</a></li>
+                                    <li><a href="./pages/services/aeration-dethatching.html">Aeration & Dethatching</a></li>
+                                    <li><a href="./pages/services/mulch.html">Mulch Installation</a></li>
+                                    <li><a href="./pages/services/pruning.html">Bush & Tree Pruning</a></li>
+                                    <li><a href="./pages/services/leaf-removal.html">Leaf Removal & Disposal</a></li>
+                                    <li><a href="./pages/services/gutter-cleaning.html">Gutter Cleaning</a></li>
+                                    <li><a href="./pages/services/snow-removal.html">Snow Removal</a></li>
+                                    <li><a href="./pages/services/ice-prevention.html">Ice Prevention</a></li>
+                                    <li><a href="./pages/services/soft-washing.html">Soft Washing</a></li>
+                                    <li><a href="./pages/services/power-washing.html">Power Washing</a></li>
+                                    <li><a href="./pages/services/junk-removal.html">Junk Removal</a></li>
+                                </ul>
+                            </div>
+                            <a href="./pages/about.html" class="link" href="#about">ABOUT</a>
+                            <a href="./pages/gallery.html" class="link" href="#gallery">GALLERY</a>
+                            <a href="./pages/contact.html" class="contact cta">CONTACT</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="banner">
+        <div class="hero-img img-wrapper">
+            <img src="./img/banner 500x125.png" alt="pruning bushes by hand">
+        </div>
+        <div class="circle">
+            
+        </div>
+        <div class="title-holder">
+            <div class="title">
+                <p> ★★★★★ 4.8 stars on Google!</p>
+                <h1>BUILD YOUR DREAM YARD</h1>
+            </div>
+            <div class="title-buttons">
+                <a href="./pages/contact.html" class="quote-link">Get a free quote!</a>
+                <a href="./pages/gallery.html" class="gallery-link">See our work</a>
+            </div>
+        </div>
+    </div>
+    <main>
+        <div class="services">
+            <div class="service-header">
+                <a><div class='service-link'>
+                    <span><p class="service-name">LEAF REMOVAL</p></span>
+                    <span><p class="service-description">Removals, additions, and more</p></span>
+                </div></a>
+                <span class="vertical-divider"></span>
+                <a><div class='service-link'>
+                    <span><p class="service-name">LAWN MOWING</p></span>
+                    <span><p class="service-description">25% off price if season paid up front!</p></span>
+                </div></a>
+                <span class="vertical-divider"></span>
+                <a><div class='service-link'>
+                    <span><p class="service-name">GUTTER CLEANING</p></span>
+                    <span><p class="service-description">Get ahead of the messiest season now</p></span>
+                </div></a>
+                <span class="vertical-divider"></span>
+                <a><div class='service-link'>
+                    <span><p class="service-name">SNOW & ICE</p></span>
+                    <span><p class="service-description">It costs less to act before the storm!</p></span>
+                </div></a>
+            </div>
+            <div class="services-body">
+                <div class="page-title-holder">
+                    <div class="img-wrapper title-img">
+                        <img src="./img/banner 700x200.png" alt="gallery image of landscaping services">
+                    </div>
+                    <div class="page-title">
+                        <p class="page-title-link"><a>→ About Us</a></p>
+                        <h2>Craftsmanship and attention to detail, every time.</h2>
+                        <p class="page-title-text">Proudly serving residential and commercial clients across Cumberland and Gloucester Counties. We specialize in delivering high-quality landscaping solutions tailored to your needs. Call us to find out why we're the number one landscaping service in South Jersey!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div class="service-carousel-holder">
+                <div class="container">
+                    <div class="carousel-header">
+                        <div class="carousel-header-content">
+                            <p>→ Our Services</p>
+                            <h2>What we can do for you</h2>
+                        </div>
+                        
+                        <div class="nav-buttons">
+                            <button class="nav-btn prev-btn">‹</button>
+                            <button class="nav-btn next-btn">›</button>
+                        </div>
+                    </div>
+
+                    <div class="carousel-wrapper">
+                        <div class="carousel-track">
+
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="./img/service-img-1.png" alt="Lawn mowing" draggable="false">
+                                </div>
+                                <div class="card-content">
+                                    <div class="card-address">
+                                        <div class="address-dot"></div>
+                                        <span class="address-text">Video-Call Estimates Available</span>
+                                    </div>
+                                    <h3 class="card-title">Lawn Mowing & Maintenance</h3>
+                                    <div class="card-stats">
+                                        <div>
+                                            <div class="stat-number">See More</div>
+                                            <div class="stat-label">15% off if season paid upfront!</div>
+                                        </div>
+                                        <a href="./pages/services/lawn-mowing.html" class="action-btn btn-green">↗</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="./img/service-img-7.png" alt="Aerating soil" draggable="false">
+                                </div>
+                                <div class="card-content">
+                                    <div class="card-address">
+                                        <div class="address-dot"></div>
+                                        <span class="address-text">Video-Call Estimates Available</span>
+                                    </div>
+                                    <h3 class="card-title">Aeration & Dethatching</h3>
+                                    <div class="card-stats">
+                                        <div>
+                                            <div class="stat-number">See More</div>
+                                            <div class="stat-label">Breathe new life into your yard</div>
+                                        </div>
+                                        <a href="./pages/services/aeration-dethatching.html" class="action-btn btn-blue">↗</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="./img/mulch/mulch-img1.png" alt="Mulch installation" draggable="false">
+                                </div>
+                                <div class="card-content">
+                                    <div class="card-address">
+                                        <div class="address-dot"></div>
+                                        <span class="address-text">Video-Call Estimates Available</span>
+                                    </div>
+                                    <h3 class="card-title">Mulch Installation</h3>
+                                    <div class="card-stats">
+                                        <div>
+                                            <div class="stat-number">See More</div>
+                                            <div class="stat-label">High-quality mulch</div>
+                                        </div>
+                                        <a href="./pages/services/mulch.html" class="action-btn btn-yellow">↗</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="./img/service-img-3.png" alt="Bush and tree pruning" draggable="false">
+                                </div>
+                                <div class="card-content">
+                                    <div class="card-address">
+                                        <div class="address-dot"></div>
+                                        <span class="address-text">Video-Call Estimates Available</span>
+                                    </div>
+                                    <h3 class="card-title">Bush/Tree Pruning & Planting</h3>
+                                    <div class="card-stats">
+                                        <div>
+                                            <div class="stat-number">See More</div>
+                                            <div class="stat-label">Expert care for every season</div>
+                                        </div>
+                                        <a href="./pages/services/pruning.html" class="action-btn btn-orange">↗</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="./img/service-img-4.png" alt="Leaf removal" draggable="false">
+                                </div>
+                                <div class="card-content">
+                                    <div class="card-address">
+                                        <div class="address-dot"></div>
+                                        <span class="address-text">Video-Call Estimates Available</span>
+                                    </div>
+                                    <h3 class="card-title">Leaf Removal/Disposal</h3>
+                                    <div class="card-stats">
+                                        <div>
+                                            <div class="stat-number">See More</div>
+                                            <div class="stat-label">No more autumn hassle</div>
+                                        </div>
+                                        <a href="./pages/services/leaf-removal.html" class="action-btn btn-green">↗</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="./img/gutter/gutter-img1.png" alt="Cleaning out gutters" draggable="false">
+                                </div>
+                                <div class="card-content">
+                                    <div class="card-address">
+                                        <div class="address-dot"></div>
+                                        <span class="address-text">Video-Call Estimates Available</span>
+                                    </div>
+                                    <h3 class="card-title">Gutter Cleaning</h3>
+                                    <div class="card-stats">
+                                        <div>
+                                            <div class="stat-number">See More</div>
+                                            <div class="stat-label">Protect your whole home</div>
+                                        </div>
+                                        <a href="./pages/services/gutter-cleaning.html" class="action-btn btn-blue">↗</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="./img/service-img-5.png" alt="Snow removal" draggable="false">
+                                </div>
+                                <div class="card-content">
+                                    <div class="card-address">
+                                        <div class="address-dot"></div>
+                                        <span class="address-text">Video-Call Estimates Available</span>
+                                    </div>
+                                    <h3 class="card-title">Snow Removal</h3>
+                                    <div class="card-stats">
+                                        <div>
+                                            <div class="stat-number">See More</div>
+                                            <div class="stat-label">Clean walkways and driveways!</div>
+                                        </div>
+                                        <a href="./pages/services/snow-removal.html" class="action-btn btn-yellow">↗</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="./img/ice/ice-img1.png" alt="Ice Prevention" draggable="false">
+                                </div>
+                                <div class="card-content">
+                                    <div class="card-address">
+                                        <div class="address-dot"></div>
+                                        <span class="address-text">Video-Call Estimates Available</span>
+                                    </div>
+                                    <h3 class="card-title">Ice Prevention</h3>
+                                    <div class="card-stats">
+                                        <div>
+                                            <div class="stat-number">See More</div>
+                                            <div class="stat-label">It costs less to act earlier!</div>
+                                        </div>
+                                        <a href="./pages/services/ice-prevention.html" class="action-btn btn-orange">↗</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="./img/soft-clean/soft-img1.png" alt="Soft washing" draggable="false">
+                                </div>
+                                <div class="card-content">
+                                    <div class="card-address">
+                                        <div class="address-dot"></div>
+                                        <span class="address-text">Video-Call Estimates Available</span>
+                                    </div>
+                                    <h3 class="card-title">Soft Washing</h3>
+                                    <div class="card-stats">
+                                        <div>
+                                            <div class="stat-number">See More</div>
+                                            <div class="stat-label">Gentle for delicate surfaces</div>
+                                        </div>
+                                        <a href="./pages/services/soft-washing.html" class="action-btn btn-green">↗</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="./img/power/power-img1.png" alt="Power washing" draggable="false">
+                                </div>
+                                <div class="card-content">
+                                    <div class="card-address">
+                                        <div class="address-dot"></div>
+                                        <span class="address-text">Video-Call Estimates Available</span>
+                                    </div>
+                                    <h3 class="card-title">Power Washing</h3>
+                                    <div class="card-stats">
+                                        <div>
+                                            <div class="stat-number">See More</div>
+                                            <div class="stat-label">Shiny tough-to-clean surfaces</div>
+                                        </div>
+                                        <a href="./pages/services/power-washing.html" class="action-btn btn-blue">↗</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="./img/service-img-6.png" alt="Junk removal services" draggable="false">
+                                </div>
+                                <div class="card-content">
+                                    <div class="card-address">
+                                        <div class="address-dot"></div>
+                                        <span class="address-text">Video-Call Estimates Available</span>
+                                    </div>
+                                    <h3 class="card-title">Junk Removal</h3>
+                                    <div class="card-stats">
+                                        <div>
+                                            <div class="stat-number">See More</div>
+                                            <div class="stat-label">Dumpster or dump-trailer</div>
+                                        </div>
+                                        <a href="./pages/services.html" class="action-btn btn-yellow">↗</a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery">
+            <div class="gallery-section">
+                <div class="gallery-bg img-wrapper">
+                    <img src="./img/process-img 1366x768.png" alt="landscaping services">
+                </div>
+                <div class="gallery-content">
+                    <h2 class="fade-on-scroll">SEE OUR WORK!</h2>
+                    <p class="fade-on-scroll">Our gallery shows why customers continue to choose us - check it out!</p>
+                    <a href="./pages/gallery.html" class="cta gallery-btn fade-on-scroll">Visit Gallery</a>
+                </div>
+            </div>
+        </section>
+        <section class="reviews">
+            <div class="rotator">
+                <div class="rotator-wheel">
+                    <p>Punctuality Guaranteed</p>
+                    <p>Year Round Service</p>
+                    <p>No Payment Until Results Delivered!</p>
+                    <p>Trusted and Insured</p>
+                    <p>Quotes Honored for Six Months</p>
+                </div>
+            </div> 
+            <div class="reviews-header">
+                <p>→ Our Reviews</p>
+                <h2>Don't just take our word for it</h2>
+                <p>Here's what people are saying about our work</p>
+            </div>
+            <div class="reviews-container">
+                <div class="review-card">
+                    <span class="img-wrapper review-quote">
+                        <img src="./img/quotation-mark.svg" alt="quotation-mark icon">
+                    </span>
+                    <span class="review">
+                        <p>Where do I start. They say they will be there and they are there. Communication is great. Prices are spot on. Happy to help and be fair. Honestly some of the best people I've come across in a long time... <span class="link-to-google"><a target="_blank" href="https://www.google.com/search?q=thomas+and+son+landscaping&rlz=1C1ONGR_enUS1138US1138&oq=th&gs_lcrp=EgZjaHJvbWUqDggCEEUYJxg7GIAEGIoFMgYIABBFGDwyBggBEEUYOTIOCAIQRRgnGDsYgAQYigUyDggDEEUYJxg7GIAEGIoFMgYIBBBFGDsyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQgyNzM5ajFqN6gCCLACAfEFv8obupGZmsk&sourceid=chrome&ie=UTF-8#lrd=0x81d4adc72cbdeed1:0xb362bc220431d2ef,1,,,,">see more</a></span></p>
+                    </span>
+                    <span class="review-info">
+                        <p>Adrienne D.</p><p class="review-stars">★★★★★</p>
+                    </span>
+                </div>
+                <div class="review-card">
+                    <span class="img-wrapper review-quote">
+                        <img src="./img/quotation-mark.svg" alt="quotation-mark icon">
+                    </span>
+                    <span class="review">
+                        <p>Nick and his crew have been out to my house a few times already and their work is always great!  Nick worked really hard with me to surprise my husband with one thing... <span class="link-to-google"><a target="_blank" href="https://www.google.com/search?q=thomas+and+son+landscaping&rlz=1C1ONGR_enUS1138US1138&oq=th&gs_lcrp=EgZjaHJvbWUqDggCEEUYJxg7GIAEGIoFMgYIABBFGDwyBggBEEUYOTIOCAIQRRgnGDsYgAQYigUyDggDEEUYJxg7GIAEGIoFMgYIBBBFGDsyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQgyNzM5ajFqN6gCCLACAfEFv8obupGZmsk&sourceid=chrome&ie=UTF-8#lrd=0x81d4adc72cbdeed1:0xb362bc220431d2ef,1,,,,">see more</a></span></p>
+                    </span>
+                    <span class="review-info">
+                        <p>Amber Berkemeijer.</p><p class="review-stars">★★★★★</p>
+                    </span>
+                </div>
+                <div class="review-card">
+                    <span class="img-wrapper review-quote">
+                        <img src="./img/quotation-mark.svg" alt="quotation-mark icon">
+                    </span>
+                    <span class="review">
+                        <p>Exceptional Service from Thomas and Son Landscaping LLC I was thoroughly impressed with the work done by them. They transformed my neglected yard into a beautiful... <span class="link-to-google"><a target="_blank" href="https://www.google.com/search?q=thomas+and+son+landscaping&rlz=1C1ONGR_enUS1138US1138&oq=th&gs_lcrp=EgZjaHJvbWUqDggCEEUYJxg7GIAEGIoFMgYIABBFGDwyBggBEEUYOTIOCAIQRRgnGDsYgAQYigUyDggDEEUYJxg7GIAEGIoFMgYIBBBFGDsyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQgyNzM5ajFqN6gCCLACAfEFv8obupGZmsk&sourceid=chrome&ie=UTF-8#lrd=0x81d4adc72cbdeed1:0xb362bc220431d2ef,1,,,,">see more</a></span></p>
+                    </span>
+                    <span class="review-info">
+                        <p>William W.</p><p class="review-stars">★★★★★</p>
+                    </span>
+                </div>
+                <div class="review-card">
+                    <span class="img-wrapper review-quote">
+                        <img src="./img/quotation-mark.svg" alt="quotation-mark icon">
+                    </span>
+                    <span class="review">
+                        <p>Thomas and Son offer great service. Offer Grasscutting and edging at a very reasonable rate. Their communication is outstanding and very personable. Flexible with their times and always... <span class="link-to-google"><a target="_blank" href="https://www.google.com/search?q=thomas+and+son+landscaping&rlz=1C1ONGR_enUS1138US1138&oq=th&gs_lcrp=EgZjaHJvbWUqDggCEEUYJxg7GIAEGIoFMgYIABBFGDwyBggBEEUYOTIOCAIQRRgnGDsYgAQYigUyDggDEEUYJxg7GIAEGIoFMgYIBBBFGDsyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQgyNzM5ajFqN6gCCLACAfEFv8obupGZmsk&sourceid=chrome&ie=UTF-8#lrd=0x81d4adc72cbdeed1:0xb362bc220431d2ef,1,,,,">see more</a></span></p>
+                    </span>
+                    <span class="review-info">
+                        <p>Martie Campbell</p><p class="review-stars">★★★★★</p>
+                    </span>
+                </div>
+                <div class="review-card">
+                    <span class="img-wrapper review-quote">
+                        <img src="./img/quotation-mark.svg" alt="quotation-mark icon">
+                    </span>
+                    <span class="review">
+                        <p>Honestly? Best people I've met. Good conversation. Good work. Good time. In and out. Got it right, the first time. My brother had them come out and do some of his commercial... <span class="link-to-google"><a target="_blank" href="https://www.google.com/search?q=thomas+and+son+landscaping&rlz=1C1ONGR_enUS1138US1138&oq=th&gs_lcrp=EgZjaHJvbWUqDggCEEUYJxg7GIAEGIoFMgYIABBFGDwyBggBEEUYOTIOCAIQRRgnGDsYgAQYigUyDggDEEUYJxg7GIAEGIoFMgYIBBBFGDsyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQgyNzM5ajFqN6gCCLACAfEFv8obupGZmsk&sourceid=chrome&ie=UTF-8#lrd=0x81d4adc72cbdeed1:0xb362bc220431d2ef,1,,,,">see more</a></span></p>
+                    </span>
+                    <span class="review-info">
+                        <p>Christopher W.</p><p class="review-stars">★★★★★</p>
+                    </span>
+                </div>
+                <div class="review-card">
+                    <span class="img-wrapper review-quote">
+                        <img src="./img/quotation-mark.svg" alt="quotation-mark icon">
+                    </span>
+                    <span class="review">
+                        <p>I highly recommend Nickolas. He’s reliable and efficient. He gave me a wonderful price and didn’t try changing it at the last minute. He cut down 2 ugly trees, cleaned up the mess, and hauled it away... <span class="link-to-google"><a target="_blank" href="https://www.google.com/search?q=thomas+and+son+landscaping&rlz=1C1ONGR_enUS1138US1138&oq=th&gs_lcrp=EgZjaHJvbWUqDggCEEUYJxg7GIAEGIoFMgYIABBFGDwyBggBEEUYOTIOCAIQRRgnGDsYgAQYigUyDggDEEUYJxg7GIAEGIoFMgYIBBBFGDsyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQgyNzM5ajFqN6gCCLACAfEFv8obupGZmsk&sourceid=chrome&ie=UTF-8#lrd=0x81d4adc72cbdeed1:0xb362bc220431d2ef,1,,,,">see more</a></span></p>
+                    </span>
+                    <span class="review-info">
+                        <p>Beth Clark</p><p class="review-stars">★★★★★</p>
+                    </span>
+                </div>
+            </div>
+        </section>
+        <section class="final-cta">
+            <div class="cta-container">
+                <div class='cta-container-inner'>
+                    <h2>Get Started Today</h2>
+                    <h3>Book your free quote to build your dream yard</h3>
+                </div>
+            </div>
+        </section>
+    <footer>
+        <div class="footer-holder">
+            <div class="footer-divider top-one">
+                <div class="footer-contact-button">
+                    <a href="./pages/contact.html" class="footer-link cta">Let's Talk</a>
+                </div>
+            </div>
+            <div class="footer-top-grid">
+                <div class="img-wrapper footer-logo">
+                    <img src="./img/logo-dark.svg" alt="company logo">
+                </div>
+                <div class="footer-info">
+                    <span class="footer-info-line">
+                        <div class="img-wrapper info-pic">
+                            <img src="./img/map-icon.svg" alt="map icon">
+                        </div>
+                        <p>Serving South Jersey and Philadelphia Areas</p>
+                    </span>
+                    <span class="footer-info-line">
+                        <div class="img-wrapper info-pic">
+                            <img src="./img/phone-footer-icon.svg" alt="phone icon">
+                        </div>
+                        <p><a href="tel:609-415-3735">(609) 415-3735</a></p>
+                    </span>
+                    <span class="footer-info-line">
+                        <div class="img-wrapper info-pic">
+                            <img src="./img/email-footer-icon.svg" alt="phone-icon">
+                        </div>
+                        <p><a href="mailto:nick@thomasandsonlandscaping.com">nick@thomasandsonlandscaping.com</a></p>
+                    </span>
+                </div>
+                <div class="footer-services">
+                    <h4>SERVICES</h4>
+                    <ul class="footer-services-list">
+                        <li><a href="./pages/services/lawn-mowing.html">Lawn Mowing</a></li>
+                        <li><a href="./pages/services/aeration-dethatching.html">Aeration & Dethatching</a></li>
+                        <li><a href="./pages/services/mulch.html">Mulch Installation</a></li>
+                        <li><a href="./pages/services/pruning.html">Bush & Tree Pruning</a></li>
+                        <li><a href="./pages/services/leaf-removal.html">Leaf Removal & Disposal</a></li>
+                        <li><a href="./pages/services/gutter-cleaning.html">Gutter Cleaning</a></li>
+                        <li><a href="./pages/services/snow-removal.html">Snow Removal</a></li>
+                        <li><a href="./pages/services/ice-prevention.html">Ice Prevention</a></li>
+                        <li><a href="./pages/services/soft-washing.html">Soft Washing</a></li>
+                        <li><a href="./pages/services/power-washing.html">Power Washing</a></li>
+                        <li><a href="./pages/services/junk-removal.html">Junk Removal</a></li>
+                    </ul>
+                </div>
+                <div class="footer-browse">
+                    <h4>BROWSE</h4>
+                    <ul class="footer-browse-list">
+                        <li><a href="./pages/services.html">Services</a></li>
+                        <li><a href="./pages/about.html">About</a></li>
+                        <li><a href="./pages/gallery.html">Gallery</a></li>
+                        <li><a href="./pages/contact.html" class="footer-book">BOOK FREE ESTIMATE</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-divider">
+                <div class="footer-site-info">
+                    <p>&#169; Thomas & Son Landscaping, LLC <span class='copyright-year'>2025</span> | Website by <a href="https://cherryhillwebdev.com/index.html">Cherry Hill Web Dev</a></p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    </main>
+    <script src="./js/index-script.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
