@@ -230,6 +230,7 @@ a.cta {
     margin: 0;
     border-bottom: 1px solid #eee;
     text-align: center;
+    user-select: none;
 }
 
 .mobile-nav .contact {
@@ -1816,7 +1817,7 @@ a.cta {
 
     .dropdown-menu {
         position: absolute;
-        top: 0%;
+        top: -40%;
         left: -120px;
         min-width: 160px;
         background: #444;
